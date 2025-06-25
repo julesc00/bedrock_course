@@ -41,3 +41,7 @@ In summary, the "Ex top P" parameter in Bedrock text models determines the cumul
 
 ### Prompt Engineering
 ![prompt_engineering.png](../resources/images/prompt_engineering.png)
+
+### RAG
+RAG (Retrieval-Augmented Generation) is a technique that combines the strengths of retrieval-based methods and generative models to produce more accurate and contextually relevant responses. In the context of AWS Bedrock, RAG can be implemented by integrating external knowledge sources or databases with the generative capabilities of the text models.
+![rag.png](../resources/images/rag.png)
