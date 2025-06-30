@@ -45,3 +45,20 @@ In summary, the "Ex top P" parameter in Bedrock text models determines the cumul
 ### RAG
 RAG (Retrieval-Augmented Generation) is a technique that combines the strengths of retrieval-based methods and generative models to produce more accurate and contextually relevant responses. In the context of AWS Bedrock, RAG can be implemented by integrating external knowledge sources or databases with the generative capabilities of the text models.
 ![rag.png](../resources/images/rag.png)
+
+## Section 8 Text API
+
+![summary_api.png](../resources/images/summary_api.png)
+
+### IaC with CDK
+1. Initialize a new CDK project:
+   ```bash
+   cdk init app --language=python
+   ```
+#### Useful commands
+
+ * `cdk ls`          list all stacks in the app
+ * `cdk synth`       emits the synthesized CloudFormation template
+ * `cdk deploy`      deploy this stack to your default AWS account/region
+ * `cdk diff`        compare deployed stack with current state
+ * `cdk docs`        open CDK documentation   

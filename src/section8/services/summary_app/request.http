@@ -1,0 +1,7 @@
+POST https://localhost:8080/test?points=3
+
+Content-Type: application/json
+
+{
+  "text": "Long test to summarize"
+}
